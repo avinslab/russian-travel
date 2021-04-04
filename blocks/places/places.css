@@ -6,7 +6,7 @@
 }
 @media ( max-width:1024px  )  {
     .places{
-        max-width: calc( 1024px - ( 2 * 48px ) );
+        max-width: 984px;
     }
 }
 @media ( max-width:768px  )  {
