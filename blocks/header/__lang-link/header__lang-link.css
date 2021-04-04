@@ -13,17 +13,17 @@
 .header__lang-link:last-child{
     margin-right: 48px;
 }
-@media (max-width :1024px) {
+@media (max-width:1024px) {
     .header__lang-link:last-child{
         margin-right: 48px;
     }
 }
-@media (max-width :768px) {
+@media (max-width:768px) {
     .header__lang-link:last-child{
         margin-right: 24px;
     }
 }
-@media (max-width :320px) {
+@media (max-width:320px) {
     .header__lang-link:last-child{
         margin-right: 16px;
     }

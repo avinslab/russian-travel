@@ -8,7 +8,7 @@
     "image  paragraph-container";
     column-gap:40px;
 }
-@media ( max-width :320px  )  {
+@media ( max-width:320px  )  {
     .place{
         display: flex;
         flex-direction: column;

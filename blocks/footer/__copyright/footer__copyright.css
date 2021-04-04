@@ -9,7 +9,7 @@
     padding:0;
     justify-self: end;
 }
-@media (max-width :320px) {
+@media (max-width:320px) {
     .footer__copyright{
         margin: 48px 0 24px 16px ;
         font-size: 14px;

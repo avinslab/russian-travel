@@ -7,12 +7,12 @@
     margin:92px 0 0 0;
 }
 
-@media ( max-width :768px  )  {
+@media ( max-width:768px  )  {
     .intro__title{
         margin:88px 0 0 0;
     }
 }
-@media ( max-width :320px  )  {
+@media ( max-width:320px  )  {
     .intro__title{
         margin:64px 0 0 0;
         font-size: 32px;
