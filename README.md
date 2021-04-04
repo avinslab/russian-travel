@@ -1,4 +1,6 @@
 # Проект 3: Путешествие по России
+## ССылка на проект
+[GitHub Pages Путешествие по России](https://avinslab.github.io/russian-travel/)
 
 ### Обзор
 * Интро
