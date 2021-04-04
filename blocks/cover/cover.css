@@ -4,7 +4,6 @@
     white-space: pre-line;
     max-width: 1184px;
     height: 740px;
-    margin:auto;
     position: relative;
     background-image: url(../../images/vaccinium.png);
     background-size: cover;
@@ -35,13 +34,13 @@
 
 @media (max-width : 1024px){
     .cover{
-        max-width:1024px;
+        max-width : 1024px;
     }
 }
 
 @media (max-width : 320px){
     .cover{
-        margin:66px auto 0;   
+        margin: 66px auto 0;
         width: 100%;
         height: 320px;
     }

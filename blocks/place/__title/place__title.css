@@ -10,7 +10,7 @@ margin:0;
 .place__title:first-child{
     padding-top: 92px;
 }
-@media ( max-width : 768px  )  {
+@media ( max-width :768px  )  {
     .place__title:first-child{
         padding-top: 88px;
     }
@@ -19,7 +19,7 @@ margin:0;
         line-height: 46px;
     }
 }
-@media ( max-width : 320px  )  {
+@media ( max-width :320px  )  {
     .place__title:first-child{
         padding-top: 64px;
     }

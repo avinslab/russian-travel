@@ -4,24 +4,24 @@
     grid-template-columns: 1fr min-content min-content;
     grid-template-rows: 1fr;
     gap:18px;
-    align-content: center ;
+    align-content: center;
     font-family: 'Inter',Arial, sans-serif;
-    color: #FFFFFF;    
+    color: #FFFFFF;
     margin:auto;
 }
-@media (max-width : 1024px) {
+@media (max-width :1024px) {
     .header{
         max-height: 80px;
         max-width: 928px;
     }
 }
-@media (max-width : 768px) {
+@media (max-width :768px) {
     .header{
         max-height: 78px;
         max-width: 672px;
     }
 }
-@media (max-width : 320px) {
+@media (max-width :320px) {
     .header{
         max-height: calc(42px + 16px);
         max-width: calc(320px - 32px);

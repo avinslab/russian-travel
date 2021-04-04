@@ -1,17 +1,14 @@
 .place{
-    font-family: 'Inter',Arial, sans-serif;
+    font-family:'Inter',Arial, sans-serif;
     color:#FFFFFF;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "title  link"
+    grid-template-areas:"title  link"
     "image  paragraph-container"
     "image  paragraph-container";
     column-gap:40px;
 }
-
-
-@media ( max-width : 320px  )  {
+@media ( max-width :320px  )  {
     .place{
         display: flex;
         flex-direction: column;
