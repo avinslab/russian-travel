@@ -2,7 +2,6 @@
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;
     white-space: pre-line;
-    border: 2px solid purple;
     display: flex;
     flex-direction: column;
     align-content: flex-start;
@@ -13,18 +12,15 @@
 @media ( max-width : 1024px  )  {
     .lead{
         max-width: 928px;
-        border: khaki dotted 3px;
     }
 }
 @media ( max-width : 768px  )  {
     .lead{
         max-width:100%;
-        border: green dotted 3px;
     }
 }
 @media ( max-width : 320px  )  {
     .lead{
         max-width:100%;
-        border: pink dotted 3px;
     }
 }

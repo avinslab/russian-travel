@@ -8,20 +8,17 @@
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;    
     margin:auto;
-    border: 1px solid red; 
 }
 @media (max-width : 1024px) {
     .header{
         max-height: 80px;
-        max-width: 928pxpx;
-        border: olive solid 1px;
+        max-width: 928px;
     }
 }
 @media (max-width : 768px) {
     .header{
         max-height: 78px;
         max-width: 672px;
-        border: olive solid 1px;
     }
 }
 @media (max-width : 320px) {

@@ -4,3 +4,11 @@
     padding-top: 92px;
     padding-bottom: 24px;
 }
+@media (max-width : 320px) {
+    .footer__container{
+        margin: 0;
+        padding: 32px 0;
+        display: flex;
+        flex-direction: column;
+    }
+}

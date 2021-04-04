@@ -13,12 +13,10 @@
 @media ( max-width : 768px  )  {
     .lead__caption{
         margin-left:24px;
-        border: green dotted 3px;
     }
 }
 @media ( max-width : 320px  )  {
     .lead__caption{
         margin-left:24px;
-        border: pink dotted 3px;
     }
 }

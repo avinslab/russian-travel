@@ -25,7 +25,6 @@
 @media ( max-width : 320px  )  {
     .place__paragraph:first-child{
         padding-top: 32px;
-        border: pink dotted 3px;
     }
     .place__paragraph:not(:first-child){
         padding-top: 25px;

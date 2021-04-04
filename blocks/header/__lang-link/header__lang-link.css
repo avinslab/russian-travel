@@ -4,7 +4,6 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
-    border: 1px solid red; 
     color: inherit;
     padding-top: 46px;
 }
@@ -17,13 +16,11 @@
 @media (max-width : 1024px) {
     .header__lang-link:last-child{
         margin-right: 48px;
-        border: olive solid 1px;
     }
 }
 @media (max-width : 768px) {
     .header__lang-link:last-child{
         margin-right: 24px;
-        border: olive solid 1px;
     }
 }
 @media (max-width : 320px) {

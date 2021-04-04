@@ -13,12 +13,10 @@ align-items: flex-start;
 @media ( max-width : 768px  )  {
     .intro__list{
         padding: 33px 0 88px 0;
-        border: green dotted 3px;
     }
 }
 @media ( max-width : 320px  )  {
     .intro__list{
         padding: 33px 0 64px 0;
-        border: pink dotted 3px;
     }
 }

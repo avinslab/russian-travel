@@ -6,6 +6,5 @@
 @media ( max-width : 320px  )  {
     .place__image{
         padding-top: 32px;
-        border: pink dotted 3px;
     }
 }

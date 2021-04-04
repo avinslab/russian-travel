@@ -8,7 +8,6 @@
     padding:62px 0 0 0;
     margin: 0;
     max-width: 720px;
-    border: solid red 1px;
 }
 @media (max-width : 320px ){
     .lead__title{
