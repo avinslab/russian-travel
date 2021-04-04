@@ -1,0 +1,16 @@
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+    gap: 16px;
+    justify-items: center;
+    max-width: calc( 1280px - 96px );
+    font-family: 'Inter',Arial, sans-serif;
+    margin: auto;
+}
+@media ( max-width : 320px  )  {
+    .photo-grid{
+        max-width: 288px;
+        gap:12px;
+        border: pink dotted 3px;
+    }
+}

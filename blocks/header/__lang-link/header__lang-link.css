@@ -1,0 +1,33 @@
+.header__lang-link{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    border: 1px solid red; 
+    color: inherit;
+    padding-top: 46px;
+}
+.header__lang-link:visited{
+    color: inherit;
+}
+.header__lang-link:last-child{
+    margin-right: 48px;
+}
+@media (max-width : 1024px) {
+    .header__lang-link:last-child{
+        margin-right: 48px;
+        border: olive solid 1px;
+    }
+}
+@media (max-width : 768px) {
+    .header__lang-link:last-child{
+        margin-right: 24px;
+        border: olive solid 1px;
+    }
+}
+@media (max-width : 320px) {
+    .header__lang-link:last-child{
+        margin-right: 16px;
+    }
+}

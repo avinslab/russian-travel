@@ -1,0 +1,7 @@
+.intro__list-el{
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    line-height: 18px;
+    border: solid red 1px;
+}

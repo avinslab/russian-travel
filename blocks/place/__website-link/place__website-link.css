@@ -1,0 +1,15 @@
+.place__website-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+.place__website-link:visited{
+    color: #FFFFFF;    
+}
+.place__website-link:hover{
+    opacity: 0.8;
+    transition: opacity .25s ease-in-out;
+}

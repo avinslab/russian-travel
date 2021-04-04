@@ -1,0 +1,23 @@
+.footer{
+    font-family: 'Inter',Arial, sans-serif;
+    color: #FFFFFF;
+    max-width: 1184px;
+    margin:auto;
+}
+@media (max-width : 1024px) {
+    .footer{
+        border: yellow double 2px;
+    }
+}
+@media (max-width : 768px) {
+    .footer{
+        border:  green dotted 2px;
+    }
+}
+@media (max-width : 320px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        border:  white dotted 2px;
+    }
+}

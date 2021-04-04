@@ -1,0 +1,32 @@
+.header{
+    display: grid;
+    max-width: calc( 1280px - 96px);
+    grid-template-columns: 1fr min-content min-content;
+    grid-template-rows: 1fr;
+    gap:18px;
+    align-content: center ;
+    font-family: 'Inter',Arial, sans-serif;
+    color: #FFFFFF;    
+    margin:auto;
+    border: 1px solid red; 
+}
+@media (max-width : 1024px) {
+    .header{
+        max-height: 80px;
+        max-width: 928pxpx;
+        border: olive solid 1px;
+    }
+}
+@media (max-width : 768px) {
+    .header{
+        max-height: 78px;
+        max-width: 672px;
+        border: olive solid 1px;
+    }
+}
+@media (max-width : 320px) {
+    .header{
+        max-height: calc(42px + 16px);
+        max-width: calc(320px - 32px);
+    }
+}

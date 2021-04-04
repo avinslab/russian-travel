@@ -1,0 +1,13 @@
+.place__link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    grid-area: link;
+}
+@media ( max-width : 320px  )  {
+    .place__link-container{
+        width: 288px;
+        margin: 32px auto 0;
+        border: pink dotted 3px;
+    }
+}

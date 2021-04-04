@@ -1,0 +1,11 @@
+.place__image{
+    grid-area: image;
+    padding-top: 48px;
+}
+
+@media ( max-width : 320px  )  {
+    .place__image{
+        padding-top: 32px;
+        border: pink dotted 3px;
+    }
+}
