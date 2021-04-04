@@ -1,6 +1,6 @@
 .places{
-    font-family: 'Inter',Arial, sans-serif;
-    max-width: calc( 1280px - ( 2 * 148px ) ) ;
+    font-family:'Inter',Arial, sans-serif;
+    max-width:calc( 1280px - ( 2 * 148px ) );
     margin:auto;
     color: #FFFFFF;
 }
