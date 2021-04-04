@@ -32,13 +32,13 @@
     opacity: 0.8;
 }
 
-@media (max-width : 1024px){
+@media (max-width :1024px){
     .cover{
-        max-width : 1024px;
+        max-width :1024px;
     }
 }
 
-@media (max-width : 320px){
+@media (max-width :320px){
     .cover{
         margin: 66px auto 0;
         width: 100%;
