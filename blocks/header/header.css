@@ -7,7 +7,6 @@
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;
     margin:28px 48px 0;
-    border:red solid 1px;
 }
 @media (max-width:1024px) {
     .header{
