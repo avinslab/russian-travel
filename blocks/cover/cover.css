@@ -15,7 +15,7 @@
     align-items: center;
     margin:92px auto 0;
 }
-.cover__link::after{
+.cover::after{
     content: "";
     position: absolute;
     top:0;
