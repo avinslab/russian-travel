@@ -3,7 +3,6 @@
     max-width:calc( 1280px - ( 2 * 148px ) );
     margin:auto;
     color: #FFFFFF;
-    border: 1px solid magenta;
 }
 @media (max-width:1024px)  {
     .places{

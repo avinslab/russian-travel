@@ -6,7 +6,6 @@
     max-width: 92.5%;
     font-family: 'Inter',Arial, sans-serif;
     margin: auto;
-    border: solid cyan 1px;
 }
 @media ( max-width:1024px  )  {
     .photo-grid{

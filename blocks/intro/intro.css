@@ -6,7 +6,6 @@
     align-items: baseline;
     max-width: calc( 1280px - ( 2 * 148px ) );
     margin:auto;
-    border: solid red 1px;
 }
 
 @media (max-width:1024px)  {

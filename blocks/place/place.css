@@ -7,7 +7,6 @@
     "image  paragraph-container"
     "image  paragraph-container";
     column-gap:40px;
-    border: 1px solid mediumturquoise;
 }
 @media (max-width:1024px)  {
     .place{

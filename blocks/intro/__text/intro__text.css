@@ -7,7 +7,6 @@
     color: inherit;
     max-width: 720px;
     margin: 40px 0 0 0;
-    border: solid green 1px;
 }
 @media ( max-width:768px)  {
     .intro__text{
@@ -17,6 +16,5 @@
 @media ( max-width:320px  )  {
     .intro__text{
         max-width: 288px;
-        border: solid purple 1px;
     }
 }
