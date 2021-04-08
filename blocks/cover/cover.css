@@ -1,9 +1,9 @@
 .cover{
     font-family: 'Inter',Arial, sans-serif;
     color:#FFFFFF;
-    white-space: pre-line;
     max-width: 1184px;
-    height: 740px;
+    min-height: 740px;
+    text-align:center;
     position: relative;
     background-image: url(../../images/vaccinium.png);
     background-size: cover;
@@ -11,12 +11,12 @@
     padding: 0;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
-    text-align: center;
-    box-sizing: content-box;
-    margin:92px auto 0;   
+    justify-content: flex-start;
+    align-items: center;
+    margin:92px auto 0;
+    border: firebrick solid 1px;
 }
-.cover::after{
+.cover__link::after{
     content: "";
     position: absolute;
     top:0;
@@ -35,13 +35,20 @@
 @media (max-width:1024px){
     .cover{
         max-width:1024px;
+        min-height: 640px;
+    }
+}
+@media (max-width:768px){
+    .cover{
+        max-width: 768px;
+        min-height: 480px;
     }
 }
 
 @media (max-width:320px){
     .cover{
         margin: 66px auto 0;
-        width: 100%;
-        height: 320px;
+        width: 320px;
+        min-height: 200px;
     }
 }

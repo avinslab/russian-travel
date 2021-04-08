@@ -2,29 +2,21 @@
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 28px;
     color: inherit;
-    padding-top: 46px;
+    border: red solid 1px;
+    transition: opacity .25s ease-in-out;
 }
 .header__lang-link:visited{
     color: inherit;
 }
-.header__lang-link:last-child{
-    margin-right: 48px;
-}
-@media (max-width:1024px) {
-    .header__lang-link:last-child{
-        margin-right: 48px;
-    }
-}
-@media (max-width:768px) {
-    .header__lang-link:last-child{
-        margin-right: 24px;
-    }
+.header__lang-link:hover{
+    opacity: 0.8;
 }
 @media (max-width:320px) {
-    .header__lang-link:last-child{
-        margin-right: 16px;
+    .header__lang-link{
+        font-size: 18px;
+        line-height: 20px;
     }
 }

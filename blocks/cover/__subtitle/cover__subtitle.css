@@ -4,13 +4,14 @@ font-size: 18px;
 line-height: 22px;
 font-style: normal;
 color: inherit;
-margin:32px auto 0 auto;
+max-width: 360px;
+margin:32px 0 0 0;
 }
 @media (max-width:320px) {
     .cover__subtitle{
-        margin: 16px;
-        padding-bottom: 33px;
         font-size: 14px;
         line-height: 16px;
+        max-width: 288px;
+        margin:16px 0 0 0;
     }
 }

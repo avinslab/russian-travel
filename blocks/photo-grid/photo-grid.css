@@ -3,9 +3,21 @@
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     gap: 16px;
     justify-items: center;
-    max-width: calc( 1280px - 96px );
+    max-width: 92.5%;
     font-family: 'Inter',Arial, sans-serif;
     margin: auto;
+    border: solid cyan 1px;
+}
+@media ( max-width:1024px  )  {
+    .photo-grid{
+        max-width: 90.625%;
+    }
+}
+@media ( max-width:768px  )  {
+    .photo-grid{
+        max-width: 93.75%;
+        grid-template-columns: repeat(auto-fit, minmax(1fr, 352px));
+    }
 }
 @media ( max-width:320px  )  {
     .photo-grid{

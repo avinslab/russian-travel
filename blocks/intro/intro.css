@@ -1,22 +1,31 @@
 .intro{
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
     max-width: calc( 1280px - ( 2 * 148px ) );
     margin:auto;
+    border: solid red 1px;
 }
 
-@media ( max-width:1024px  )  {
-.intro{
-    max-width: calc( 1024px - ( 2 * 48px ) );
+@media (max-width:1024px)  {
+    .intro{
+        max-width: 90.625%;
+    }
 }
+@media (max-width:768px)  {
+    .intro{
+        max-width: 93.75%;
+    }
 }
-@media ( max-width:768px  )  {
-.intro{
-    max-width:100%;
+@media (max-width:544px)  {
+    .intro{
+        max-width: 97%;
+    }
 }
-}
-@media ( max-width:320px  )  {
-.intro{
-    max-width:100%;
-}
+@media (max-width:320px)  {
+    .intro{
+        max-width: 288px;
+    }
 }

@@ -1,0 +1,13 @@
+.header__link-container{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    margin-top: 18px;
+}
+@media (max-width:320px) {
+    .header__link-container{
+        margin-top: 14px;
+        max-width:142px;
+    }
+}

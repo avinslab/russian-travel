@@ -5,20 +5,33 @@ line-height: 76px;
 font-style: normal;
 text-align: center;
 color:inherit;
-margin:245px auto 0 auto;
-padding: 0;
+max-width: 560px;
+max-height: 152px;
+margin: 245px 0 0 0;
 }
 
 @media (max-width:1024px) {
     .cover__title{
-        margin:195px auto 0 auto;
+        margin: 195px 0 0 0;
+    }
+}
+@media (max-width:768px) {
+    .cover__title{
+        margin: 115px 0 0 0;
+    }
+}
+@media (max-width:530px) {
+    .cover__title{
+        font-size: 52px;
+        line-height: 45px;
+        margin: 115px 0 0 0;
     }
 }
 @media (max-width:320px) {
     .cover__title{
+        max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        margin:33px auto 0 auto;
+        margin: 33px 0 0 0;
     }
 }
-

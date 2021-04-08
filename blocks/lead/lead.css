@@ -1,26 +1,25 @@
 .lead{
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;
-    white-space: pre-line;
     display: flex;
     flex-direction: column;
-    align-content: flex-start;
     align-items: center;
     max-width: 984px;
-    margin:auto;
+    margin: auto;
 }
-@media ( max-width:1024px  )  {
+@media (max-width:1024px)  {
     .lead{
         max-width:928px;
     }
 }
-@media ( max-width:768px  )  {
+@media (max-width:896px)  {
     .lead{
-        max-width:100%;
+        max-width:848px;
     }
 }
-@media ( max-width:320px  )  {
+
+@media (max-width:768px)  {
     .lead{
-        max-width:100%;
+        max-width:768px;
     }
 }
