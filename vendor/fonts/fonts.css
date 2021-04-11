@@ -8,7 +8,7 @@
     src: url(../fonts/inter_3.18/Inter-Bold.woff2) format('woff2');
     font-family: 'Inter';
     font-weight: 700;
-    font-style: bold;
+    font-style: normal;
 }
 @font-face {
     src: url(../fonts/inter_3.18/Inter-Black.woff2) format('woff2');

@@ -5,11 +5,11 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    transition: opacity .25s ease-in-out;
 }
 .place__website-link:visited{
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
 .place__website-link:hover{
     opacity: 0.8;
-    transition: opacity .25s ease-in-out;
 }

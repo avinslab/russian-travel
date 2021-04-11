@@ -9,16 +9,6 @@
         max-width: 90.625%;
     }
 }
-@media (max-width:768px)  {
-    .places{
-        max-width: 93.75%;
-    }
-}
-@media (max-width:544px)  {
-    .places{
-        max-width: 97%;
-    }
-}
 @media (max-width:320px)  {
     .places{
         max-width: 288px;

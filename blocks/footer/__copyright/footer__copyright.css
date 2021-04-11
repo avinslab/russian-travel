@@ -3,16 +3,16 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
-    text-align: right;
     color:inherit;
+    justify-self: flex-start;
     margin: 0;
-    padding:0;
-    justify-self: end;
+    padding-left: 18px;
+    margin-top: 92px;
 }
-@media (max-width:320px){
-    .footer__copyright{
-        margin:48px 0 24px 16px;
-        line-height: 14px;
-        text-align: left;
-    }
+@media (max-width:658px) {
+  .footer__copyright{
+    margin:48px 0 24px;
+    line-height: 14px;
+    padding:0;
+  }
 }

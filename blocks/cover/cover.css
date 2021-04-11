@@ -2,52 +2,22 @@
     font-family: 'Inter',Arial, sans-serif;
     color:#FFFFFF;
     max-width: 1184px;
-    min-height: 740px;
     text-align:center;
-    position: relative;
-    background-image: url(../../images/vaccinium.png);
-    background-size: cover;
-    z-index: 1;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin:92px auto 0;
+    margin:auto;
 }
-.cover::after{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    bottom: 0;
-    right:0;
-    background-color: #2A2C2F;
-    opacity: 0.3;
-    z-index: -1;
-    transition: opacity 0.2s ease-in-out;
-}
-.cover:hover::after{
-    opacity: 0.8;
-}
-
 @media (max-width:1024px){
     .cover{
-        max-width:1024px;
-        min-height: 640px;
+        max-width:100%;
     }
 }
-@media (max-width:768px){
-    .cover{
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-
 @media (max-width:320px){
     .cover{
         margin: 66px auto 0;
-        width: 320px;
         min-height: 200px;
     }
 }

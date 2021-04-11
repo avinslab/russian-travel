@@ -8,6 +8,5 @@
 @media ( max-width:320px  )  {
     .place__link-container{
         width: 288px;
-        margin: 32px auto 0;
     }
 }

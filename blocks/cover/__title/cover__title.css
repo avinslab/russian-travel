@@ -6,7 +6,6 @@ font-style: normal;
 text-align: center;
 color:inherit;
 max-width: 560px;
-max-height: 152px;
 margin: 245px 0 0 0;
 }
 
@@ -22,16 +21,13 @@ margin: 245px 0 0 0;
 }
 @media (max-width:530px) {
     .cover__title{
-        font-size: 52px;
-        line-height: 45px;
-        margin: 115px 0 0 0;
+      margin: 33px 0 0 0;
+      font-size: 13vw;
+      line-height: 13vw;
     }
 }
 @media (max-width:320px) {
     .cover__title{
         max-width: 288px;
-        font-size: 32px;
-        line-height: 35px;
-        margin: 33px 0 0 0;
     }
 }

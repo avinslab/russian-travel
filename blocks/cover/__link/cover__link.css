@@ -1,6 +1,32 @@
-.cover__link{
+.cover__link {
+  width:100%;
+  text-align:center;
+  position: relative;
+  background-image: url(../../../images/vaccinium.png);
+  background-size: cover;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin:92px auto 0;
+  color: #FFFFFF;
   text-decoration: none;
-  color:#FFFFFF;
-  margin: 0;
-  padding: 0;
+  padding-bottom: 15%;
+}
+
+.cover__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 0.5s ease-in-out;
+}
+.cover__link:hover::after {
+    opacity: 0.8;
 }
