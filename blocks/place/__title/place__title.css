@@ -15,22 +15,18 @@ margin:0;
       padding-top: 80px;
   }
   .place__title{
-      font-size: 42px;
-      line-height: 46px;
+    font-size: calc( 32px + 40 * ( ( 100vw - 320px ) / 704 ) );
+    line-height: calc( 35px + 41 * ( (100vw - 320px) / 704 ) );
+    /*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
   }
 }
-@media (max-width:750px){
-  .place__title{
-    width: 100%;
-    font-size:10vw;
-    line-height: 10.93vw;
-  }
-}
+
 @media (max-width:320px)  {
     .place__title:first-child{
         padding-top: 64px;
     }
     .place__title{
+        padding-top: 50px;
         font-size: 32px;
         line-height: 35px;
         max-width: 288px;

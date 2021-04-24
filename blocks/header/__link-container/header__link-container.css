@@ -6,7 +6,7 @@
     flex-direction: row;
     margin-top: 18px;
 }
-@media (max-width:320px) {
+@media (max-width:425px) {
     .header__link-container{
         margin-top: 14px;
         max-width: 142px;

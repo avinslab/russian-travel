@@ -4,9 +4,10 @@
     grid-template-rows: auto;
     gap:18px;
 }
-@media (max-width:658px) {
+@media (max-width:766px) {
     .footer__navigation{
         display: flex;
         flex-direction: column;
+        gap:0;
     }
 }

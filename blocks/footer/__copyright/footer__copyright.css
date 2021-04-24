@@ -9,7 +9,7 @@
     padding-left: 18px;
     margin-top: 92px;
 }
-@media (max-width:658px) {
+@media (max-width:766px) {
   .footer__copyright{
     margin:48px 0 24px;
     line-height: 14px;

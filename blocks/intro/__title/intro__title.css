@@ -7,12 +7,13 @@
     margin:92px 0 0 0;
 }
 
-@media ( max-width:768px  )  {
+@media (max-width:1024px)  {
     .intro__title{
-        margin:88px 0 0 0;
+      font-size: calc( 32px + 22 * ( ( 100vw - 320px ) / 448 ) );
+      /*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
     }
 }
-@media ( max-width:320px  )  {
+@media (max-width:320px)  {
     .intro__title{
         margin:64px 0 0 0;
         font-size: 32px;

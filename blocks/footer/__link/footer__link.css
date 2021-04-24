@@ -14,7 +14,7 @@ margin-top: 92px;
 .footer__link:hover{
   opacity: 0.8;
 }
-@media (max-width:658px) {
+@media (max-width:766px) {
     .footer__link{
         margin: 32px 0 0;
         font-size: 24px;
