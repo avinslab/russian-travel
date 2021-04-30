@@ -2,12 +2,17 @@
     font-family: 'Inter',Arial, sans-serif;
     color:#FFFFFF;
     max-width: 1184px;
-    margin:auto;
-}
+    margin:90px auto 0;
+  }
 @media (max-width:1024px){
     .cover{
         max-width:100%;
     }
+}
+@media (max-width:1024px){
+  .cover{
+      max-width:100%;
+  }
 }
 @media (max-width:320px){
     .cover{

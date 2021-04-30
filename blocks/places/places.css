@@ -3,14 +3,27 @@
     max-width:calc( 1280px - ( 2 * 148px ) );
     margin:auto;
     color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-top:92px;
 }
 @media (max-width:1024px)  {
     .places{
         max-width: 90.625%;
     }
 }
+@media (max-width:768px)  {
+  .places{
+    padding-top:88px;
+    gap: 73px;
+    max-width: 94%;
+  }
+}
 @media (max-width:320px)  {
     .places{
-        max-width: 288px;
+        max-width:100%;
+        padding-top:64px;
+        gap: 0;
     }
 }

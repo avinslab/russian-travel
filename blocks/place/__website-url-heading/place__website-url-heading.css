@@ -9,3 +9,8 @@ grid-area:heading;
 margin: 0;
 padding-bottom: 12px;
 }
+@media (max-width:767px){
+  .place__website-url-heading{
+    padding-top: 32px;
+  }
+}

@@ -6,33 +6,35 @@ font-style: normal;
 text-align: center;
 color:inherit;
 max-width: 560px;
-margin: 245px 0 0 0;
+padding: 0;
+margin: 0;
 }
-
-@media (max-width:1024px) {
+@media (max-width:767px) {
     .cover__title{
-        margin: 195px 0 0 0;
-    }
-}
-@media (max-width:768px) {
-    .cover__title{
-        margin: 115px 0 0 0;
-        font-size: calc( 32px + 40 * ( ( 100vw - 320px ) / 704 ) );
+      font-size: calc( 32px + 40 * ( ( 100vw - 320px ) / 704 ) );
       line-height: calc( 35px + 41 * ( (100vw - 320px) / 704 ) );
-      white-space: pre-line;
+      max-width: 56%;
     }
+}
+@media (max-width:610px) {
+  .cover__title{
+    max-width: 60%;
+  }
 }
 @media (max-width:530px) {
-    .cover__title{
-      margin: 33px 0 0 0;
-
-    /*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
-    }
+  .cover__title{
+    max-width: 65%;
+  }
+}
+@media (max-width:400px) {
+  .cover__title{
+    max-width: 70%;
+  }
 }
 @media (max-width:320px) {
     .cover__title{
       font-size: 32px;
       line-height: 35px;
-      max-width: 288px;
+      max-width: 75%;
     }
 }

@@ -1,11 +1,13 @@
 .place__image{
     grid-area: image;
-    padding-top: 49px;
+    padding-top: 48px;
     object-fit: cover;
     width: 100%;
 }
-@media (max-width:768px){
-    .place__image{
-        padding-top: 32px;
-    }
+@media (max-width:320px)  {
+  .place__image{
+      padding-top: 32px;
+  }
 }
+
+
