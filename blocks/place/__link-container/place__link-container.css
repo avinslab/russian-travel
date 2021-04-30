@@ -5,15 +5,14 @@
     grid-area: link;
     padding-top: 32px;
 }
-@media ( max-width:768px  )  {
+@media ( max-width:768px  ){
   .place__link-container{
       padding: 0;
   }
 }
-@media ( max-width:320px  )  {
+@media ( max-width:320px  ){
     .place__link-container{
         width: 288px;
         padding-left: 16px;
-      }
     }
 }
