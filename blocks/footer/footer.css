@@ -2,12 +2,16 @@
     font-family: 'Inter',Arial, sans-serif;
     color: #FFFFFF;
     max-width: 1184px;
-    width: calc( 100% - 96px );
     margin:auto;
     display: flex;
     flex-direction: row;
     padding-bottom: 24px;
     justify-content: space-between;
+}
+@media (max-width:1239px) {
+  .footer{
+    max-width: calc( 100% - 96px );
+  }
 }
 @media (max-width:768px) {
   .footer{
