@@ -1,7 +1,6 @@
 .footer__navigation{
-    display: grid;
-    grid-template-columns: repeat(5,min-content);
-    grid-template-rows: auto;
+    display: flex;
+    flex-direction: row;
     gap:18px;
 }
 @media (max-width:766px) {

@@ -3,9 +3,9 @@
     color: #FFFFFF;
     max-width: 1184px;
     margin:auto;
+    padding-bottom: 24px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 24px;
     justify-content: space-between;
 }
 @media (max-width:1239px) {
@@ -13,7 +13,7 @@
     max-width: calc( 100% - 96px );
   }
 }
-@media (max-width:768px) {
+@media (max-width:78px) {
   .footer{
     max-width: calc( 100% - 48px );
   }
@@ -25,6 +25,7 @@
     padding-left: 16px;
     margin:0;
     max-width: calc( 100% - 32px );
+    justify-content: flex-start;
   }
 }
 

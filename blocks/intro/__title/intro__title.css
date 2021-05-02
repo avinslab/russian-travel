@@ -6,11 +6,10 @@
     color:inherit;
     margin:92px 0 0 0;
 }
-
-@media (max-width:1024px)  {
+@media (max-width:767px)  {
     .intro__title{
-      font-size: calc( 32px + 22 * ( ( 100vw - 320px ) / 448 ) );
-      /*font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));*/
+      font-size: 42px;
+      line-height: 48px;
     }
 }
 @media (max-width:320px)  {
@@ -18,5 +17,6 @@
         margin:64px 0 0 0;
         font-size: 32px;
         line-height: 35px;
+        max-width: 251px;
     }
 }

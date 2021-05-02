@@ -15,12 +15,7 @@
       grid-template-columns: 47.5% 49%;
     }
 }
-@media (max-width:896px){
-    .place{
-      column-gap:28px;
-      grid-template-columns: 47% 49%;
-    }
-}
+
 @media (max-width:767px){
     .place{
       display: flex;
